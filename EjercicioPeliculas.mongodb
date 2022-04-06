@@ -66,3 +66,4 @@ db.movies.find({$and:[{synopsis:/gold/},{synopsis:/dragon/}]})
 db.movies.deleteOne({"title": "Pee Wee Herman's Big Adventure"})
 // 2.Eliminar la película "Avatar"
 db.movies.deleteOne({"title": "Avatar"})
+
